@@ -9,16 +9,24 @@
 </head>
 
 <body>
-    <div class="leaderboard">
+    <main>
         <h1>Leaderboard</h1>
-        <div id="recent-scores">
-            <h2>Recent scores</h2>
+        <div class="leaderboard-container">
+            <div class="recent-scores">
+                <div class="heading">
+                    <h2>Recent scores</h2>
+                    <button class="refresh">refresh</button>
+                </div>
+                <div class="score-board"></div>
+            </div>
+            <form action="" method="get" class="add-score">
+                <h2>Add score</h2>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+                <input type="text" name="score" id="score" placeholder="Your score" required>
+                <input type="button" value="Submit" class="submit">
+            </form>
         </div>
-        <div id="add-score">
-            <h2>Add score</h2>
-        </div>
-    </div>
-
+    </main>
     <script src="index.js"></script>
 </body>
 
