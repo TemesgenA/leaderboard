@@ -1,7 +1,7 @@
 {
-  "name": "webpack-setup",
+  "name": "leaderboard",
   "version": "1.0.0",
-  "description": "A simple yet powerful webpack boilerplate.",
+  "description": "> Description the project.",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TemesgenA/webpack-setup.git"
+    "url": "git+https://github.com/TemesgenA/leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TemesgenA/webpack-setup/issues"
+    "url": "https://github.com/TemesgenA/leaderboard/issues"
   },
-  "homepage": "https://github.com/TemesgenA/webpack-setup#readme",
+  "homepage": "https://github.com/TemesgenA/leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
