@@ -15,16 +15,22 @@
             <div class="recent-scores">
                 <div class="heading">
                     <h2>Recent scores</h2>
-                    <button type="button" class="refresh">refresh</button>
+                    <button type="button" id="refresh">refresh</button>
                 </div>
-                <div class="score-board"></div>
+                <div class="score-board">
+                    <table class="table-scores" id="table-data">
+                        <tbody class="table-body"></tbody>
+                    </table>
+                </div>
             </div>
-            <form class="add-score">
-                <h2>Add score</h2>
-                <input type="text" name="name" id="name" placeholder="Your name" required>
-                <input type="text" name="score" id="score" placeholder="Your score" required>
-                <input type="button" value="Submit" class="submit">
-            </form>
+            <div class="add-score">
+                <form id="add-score-form">
+                    <h2>Add score</h2>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                    <input type="text" name="score" id="score" placeholder="Your score" required>
+                    <button type="submit" value="Submit" class="submit">Submit</button>
+                </form>
+            </div>
         </div>
     </main>
     <script src="index.js"></script>
