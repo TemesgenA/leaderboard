@@ -3,26 +3,25 @@ body {
   font-family: 'Brush Script MT', cursive;
   background-color: #e5e5f7;
   opacity: 1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 4px ), repeating-linear-gradient( #444cf755, #444cf7 );
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 4px), repeating-linear-gradient(#444cf755, #444cf7);
 }
 
 main h1 {
-  margin-left: 22rem;
+  text-align: center;
 }
 
 .leaderboard-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 5% 5%;
-  padding-left: 16rem;
-  padding-right: 16rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .recent-scores {
   width: 300px;
   padding: 0;
-  height: fit-content;
+  height: auto;
 }
 
 .recent-scores .heading {
@@ -32,6 +31,11 @@ main h1 {
   gap: 20px;
   width: 100%;
   height: 40px;
+}
+
+input,
+button {
+  background-color: #d4d6fa;
 }
 
 .recent-scores button {
@@ -87,7 +91,4 @@ main h1 {
   height: 30px;
   border: 2px solid black;
   border-radius: 0.5em;
-}
-input, button {
-  background-color: #d4d6fa;
 }
