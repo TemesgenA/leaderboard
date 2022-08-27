@@ -49,17 +49,26 @@ main h1 {
   padding: 0 1em 1em 1em;
 }
 
-.add-score h2 {
+.add-score form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 45%;
+  gap: 1em;
+  padding: 0 1em 1em 1em;
+}
+
+.add-score form h2 {
   margin-top: 0.3em;
 }
 
-.add-score input {
+.add-score form input {
   height: 30px;
   padding-left: 1em;
   border: 2px solid black;
 }
 
-.add-score .submit {
+.add-score form button {
   width: 100px;
   align-self: flex-end;
 }
