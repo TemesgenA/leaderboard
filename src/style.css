@@ -1,25 +1,27 @@
 body {
   margin: 0;
   font-family: 'Brush Script MT', cursive;
-  background-color: whitesmoke;
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #e5e5f7 4px), repeating-linear-gradient(#444cf755, #444cf7);
 }
 
 main h1 {
-  padding-left: 2rem;
+  text-align: center;
 }
 
 .leaderboard-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin: 5% 5%;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .recent-scores {
-  width: 45%;
+  width: 300px;
   padding: 0;
-  overflow: scroll;
-  overflow-x: hidden;
+  height: auto;
 }
 
 .recent-scores .heading {
@@ -31,8 +33,15 @@ main h1 {
   height: 40px;
 }
 
+input,
+button {
+  background-color: #d4d6fa;
+}
+
 .recent-scores button {
-  height: 25px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 0.5em;
 }
 
 .recent-scores .score-board {
@@ -40,13 +49,18 @@ main h1 {
   width: 100%;
   height: auto;
   border: 2px solid black;
+  border-radius: 0.5em;
+}
+
+.table-body {
+  border: 1px solid black;
 }
 
 .add-score {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 45%;
+  width: 300px;
   gap: 1em;
   padding: 0 1em 1em 1em;
 }
@@ -68,9 +82,13 @@ main h1 {
   height: 30px;
   padding-left: 1em;
   border: 2px solid black;
+  border-radius: 0.5em;
 }
 
 .add-score form button {
-  width: 100px;
+  width: 80px;
   align-self: flex-end;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 0.5em;
 }
