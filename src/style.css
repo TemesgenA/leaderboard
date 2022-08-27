@@ -6,6 +6,10 @@ body {
   background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #e5e5f7 4px ), repeating-linear-gradient( #444cf755, #444cf7 );
 }
 
+main h1 {
+  margin-left: 22rem;
+}
+
 .leaderboard-container {
   display: flex;
   justify-content: space-around;
